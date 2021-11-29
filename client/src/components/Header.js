@@ -57,6 +57,7 @@ const Header = () => {
                             {!loggedIn && (
                                 <div className="nav-right">
                                 <p><Link to={"/login"}>Login</Link></p>
+                                <p><Link to={"/register"}>Register</Link></p>
                                 </div>
                             )}
                         </div>
